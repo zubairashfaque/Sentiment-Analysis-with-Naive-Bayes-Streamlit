@@ -41,9 +41,9 @@
 
    5.6 [Interact with the App](#evaluation-and-metrics)
 
-6. [Requirements](#installation)
+6. [Requirements](#Requirements)
 7. [Usage](#usage)
-8. [Screenshots](#results)
+8. [Screenshots](#Screenshots)
 9. [EDA Notebook Structure](#EDA)
    
    9.1 [Running the Notebook](#exploratory-data-analysis1)
@@ -177,7 +177,7 @@ streamlit run app.py
 
 4. Enter text in the provided text area and click the "Classify Sentiment" button to see the sentiment prediction and scores.
 
-## Screenshots <a name="License"></a>
+## Screenshots <a name="Screenshots"></a>
 
 <br>
 <br>
@@ -203,7 +203,7 @@ streamlit run app.py
 <br>
 
 
-## Notebook Structure <a name="License"></a>
+## Notebook Structure <a name="EDA"></a>
 The Jupyter Notebook (`EDA_sentiment_analysis.ipynb`) is structured as follows:
 
 1. **Introduction and Setup:** Importing libraries and loading the dataset.
@@ -213,14 +213,14 @@ The Jupyter Notebook (`EDA_sentiment_analysis.ipynb`) is structured as follows:
 5. **Word Count Analysis:** Calculating word counts for different sentiment classes.
 6. **Top Words Visualization:** Displaying top words for each sentiment class and creating treemap visualizations.
 
-## Running the Notebook <a name="License"></a>
+## Running the Notebook <a name="exploratory-data-analysis1"></a>
 Follow these steps to run the `EDA_sentiment_analysis.ipynb` notebook:
 
 1. Ensure you have Python and the required libraries installed.
 2. Open the notebook using Jupyter Notebook or Jupyter Lab.
 3. Execute each cell sequentially to see the analysis results.
 
-## Results and Visualizations <a name="License"></a>
+## Results and Visualizations <a name="exploratory-data-analysis2"></a>
 The notebook produces various insightful visualizations, including:
 - Sentiment distribution using a Funnel-Chart.
 - Top words and their counts for positive, negative, and neutral sentiments.
