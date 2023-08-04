@@ -1,6 +1,15 @@
 ## Sentiment Analysis With Naive Bayes
 ![image title](https://img.shields.io/badge/Python-v3.x-green.svg) ![image title](https://img.shields.io/badge/Streamlit-v1.23.0-red.svg) ![Image title](https://img.shields.io/badge/NLTK-v3.6.7-orange.svg) ![image title](https://img.shields.io/badge/Pandas-v2.0-blue.svg)
 
+<br>
+<br>
+<p align="center">
+  <img src="/images/sentimentanalysishotelgeneric-2048x803-1.jpg" 
+       width="350">
+</p>
+<br>
+
+
 ## Table of Contents
 1. [Introduction](#introduction)
    
