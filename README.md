@@ -5,7 +5,7 @@
 <br>
 <p align="center">
   <img src="/images/sentimentanalysishotelgeneric-2048x803-1.jpg" 
-       width="600">
+       width="900">
 </p>
 <br>
 
