@@ -46,9 +46,9 @@
 8. [Screenshots](#results)
 9. [EDA Notebook Structure](#results)
    
-   9.1 [Running the Notebook](#exploratory-data-analysis)
+   9.1 [Running the Notebook](#exploratory-data-analysis1)
 
-   9.2 [Results and Visualizations](#exploratory-data-analysis)
+   9.2 [Results and Visualizations](#exploratory-data-analysis2)
 10. [License](#contributing)
 11. [Acknowledgements](#license)
 12. [Contact Information](#license)
@@ -94,18 +94,17 @@ Given the text of a tweet, the task is to classify the sentiment as `positive`, 
 ```bash
 │                      
 ├── app.py                         # Streamlit application script
-│   ├── data                       # Directory for storing dataset
+│   ├── data                       # Directory for storing the dataset
 │   │   └── train.csv              # Sentiment dataset
 │   └── images                     # Directory for sentiment image
-│       ├── app_Sentiment_1.jpg    # web app screenshort 1
-│       └── app_Sentiment_2.jpg    # web app screenshort 2
+│       ├── app_Sentiment_1.jpg    # web app screenshot 1
+│       └── app_Sentiment_2.jpg    # web app screenshot 2
 │       └── app_Sentiment_3.jpg    # web app screenshort 3
 │       └── negative.jpg           # Positive sentiment image
 │       └── neutral.jpg            # Positive sentiment image
 │       └── positive.jpg           # Positive sentiment image
 │       └── sentimentanalysishotelgeneric-2048x803-1.jpg
 ├── docs                             # documentation for your project
-├── dvc.yaml                         # DVC pipeline
 ├── .gitignore                       # ignore files that cannot commit to Git
 ├── notebooks                        # store notebooks
 │   └── EDA_sentiment_analysis.ipynb # EDA Notebook
@@ -180,7 +179,29 @@ streamlit run app.py
 
 ## Screenshots
 
-Add screenshots or GIFs here showcasing your Streamlit app in action.
+<br>
+<br>
+<p align="center">
+  <img src="/images/app_Sentiment_1.jpg" 
+       width="1200">
+</p>
+<br>
+
+<br>
+<br>
+<p align="center">
+  <img src="/images/app_Sentiment_2.jpg" 
+       width="1200">
+</p>
+<br>
+<br>
+<br>
+<p align="center">
+  <img src="/images/app_Sentiment_3.jpg" 
+       width="1200">
+</p>
+<br>
+
 
 ## Notebook Structure
 The Jupyter Notebook (`EDA_sentiment_analysis.ipynb`) is structured as follows:
