@@ -2,11 +2,11 @@
 ![image title](https://img.shields.io/badge/Python-v3.x-green.svg) ![image title](https://img.shields.io/badge/Streamlit-v1.23.0-red.svg) ![Image title](https://img.shields.io/badge/NLTK-v3.6.7-orange.svg) ![image title](https://img.shields.io/badge/Pandas-v2.0-blue.svg)
 
 ## Table of Contents
-1. [Introduction](##introduction)
+1. [Introduction](#introduction)
    
-   1.1 [Project Description](###discription)
+   1.1 [Project Description](#discription)
 
-   1.2 [Project Motivation](###motivation)
+   1.2 [Project Motivation](#motivation)
 
 2. [Project Overview](#project_overview)
 
