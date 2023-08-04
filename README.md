@@ -6,7 +6,7 @@
    
    1.1 [Project Description](###discription)
 
-   1.2 [Project Motivation](#motivation)
+   1.2 [Project Motivation](###motivation)
 
 2. [Project Overview](#project_overview)
 
