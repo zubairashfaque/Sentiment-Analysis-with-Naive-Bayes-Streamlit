@@ -44,14 +44,14 @@
 6. [Requirements](#installation)
 7. [Usage](#usage)
 8. [Screenshots](#results)
-9. [EDA Notebook Structure](#results)
+9. [EDA Notebook Structure](#EDA)
    
    9.1 [Running the Notebook](#exploratory-data-analysis1)
 
    9.2 [Results and Visualizations](#exploratory-data-analysis2)
-10. [License](#contributing)
-11. [Acknowledgements](#license)
-12. [Contact Information](#license)
+10. [License](#License)
+11. [Acknowledgements](#Acknowledgements)
+12. [Contact Information](#Contact)
 
 ## Introduction <a name="introduction"></a>
 
@@ -90,7 +90,7 @@ Given the text of a tweet, the task is to classify the sentiment as `positive`, 
 
 
 
-# Project Directory Structure
+# Project Directory Structure <a name="Structure"></a>
 ```bash
 │                      
 ├── app.py                         # Streamlit application script
@@ -114,11 +114,11 @@ Given the text of a tweet, the task is to classify the sentiment as `positive`, 
 ├── LICENSE                          # Project license
 ```
 
-## Description
+## Description <a name="Description"></a>
 
 Sentiment analysis is the process of determining the sentiment (positive, negative, neutral) expressed in a piece of text. This project uses the Naïve Bayes algorithm to classify the sentiment of input text and displays the results using a user-friendly Streamlit app.
 
-## Features
+## Features <a name="Features"></a>
 
 - Preprocesses text data (lowercase, punctuation removal, etc.).
 - Calculates word counts and likelihoods for sentiment classification.
@@ -126,9 +126,9 @@ Sentiment analysis is the process of determining the sentiment (positive, negati
 - Displays resized sentiment-specific images based on the predicted sentiment.
 - Provides a visually appealing layout for user interaction.
 
-## Steps
+## Steps <a name="Steps"></a>
 
-1. **Data Collection and Preprocessing:**
+1. **Data Collection and Preprocessing:** 
    - Gather a dataset containing positive, negative, and neutral sentiment-labeled text.
    - Preprocess the text data by converting to lowercase, removing punctuation, and tokenizing sentences.
 
@@ -153,14 +153,14 @@ Sentiment analysis is the process of determining the sentiment (positive, negati
    - Enter text in the provided text area and click the "Classify Sentiment" button.
    - View the predicted sentiment label, sentiment scores, and corresponding image.
 
-## Requirements
+## Requirements <a name="Requirements"></a>
 
 - Python 3.x
 - Streamlit
 - Pandas
 - NLTK (Natural Language Toolkit)
 
-## Usage
+## Usage <a name="Usage"></a>
 
 1. Clone this repository:
 ```bash
@@ -177,7 +177,7 @@ streamlit run app.py
 
 4. Enter text in the provided text area and click the "Classify Sentiment" button to see the sentiment prediction and scores.
 
-## Screenshots
+## Screenshots <a name="License"></a>
 
 <br>
 <br>
@@ -203,7 +203,7 @@ streamlit run app.py
 <br>
 
 
-## Notebook Structure
+## Notebook Structure <a name="License"></a>
 The Jupyter Notebook (`EDA_sentiment_analysis.ipynb`) is structured as follows:
 
 1. **Introduction and Setup:** Importing libraries and loading the dataset.
@@ -213,14 +213,14 @@ The Jupyter Notebook (`EDA_sentiment_analysis.ipynb`) is structured as follows:
 5. **Word Count Analysis:** Calculating word counts for different sentiment classes.
 6. **Top Words Visualization:** Displaying top words for each sentiment class and creating treemap visualizations.
 
-## Running the Notebook
+## Running the Notebook <a name="License"></a>
 Follow these steps to run the `EDA_sentiment_analysis.ipynb` notebook:
 
 1. Ensure you have Python and the required libraries installed.
 2. Open the notebook using Jupyter Notebook or Jupyter Lab.
 3. Execute each cell sequentially to see the analysis results.
 
-## Results and Visualizations
+## Results and Visualizations <a name="License"></a>
 The notebook produces various insightful visualizations, including:
 - Sentiment distribution using a Funnel-Chart.
 - Top words and their counts for positive, negative, and neutral sentiments.
@@ -228,15 +228,15 @@ The notebook produces various insightful visualizations, including:
 
 Sample images of these visualizations are provided in the repository's `images` folder.
 
-## License
+## License <a name="License"></a>
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Acknowledgements
+## Acknowledgements <a name="Acknowledgements"></a>
 
 - The sentiment analysis algorithm is based on the Naïve Bayes approach.
 - Streamlit is used for creating the user interface.
 - NLTK is used for text preprocessing.
 
-## Contact Information
+## Contact Information <a name="Contact"></a>
 For questions, feedback, or discussions related to this project, you can contact me at [mianashfaque@gmail.com](mailto:mianashfaque@gmail.com).
