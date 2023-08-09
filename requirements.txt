@@ -3,3 +3,4 @@ streamlit
 nltk
 plotly
 sklearn
+scikit-learn
