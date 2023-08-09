@@ -15,7 +15,7 @@ from plotly import graph_objs as go
 import plotly.express as px
 from io import BytesIO 
 # Load the dataset
-csv_file_path = '/data/train.csv'
+csv_file_path = './data/train.csv'
 df = pd.read_csv(csv_file_path)
 df = df.drop(columns=['selected_text'])
 df["text"] = df["text"].astype(str)
@@ -145,7 +145,7 @@ print("Accuracy:", accuracy)
 def main():
 
     # Add a banner image
-    banner_image = Image.open("/images/sentimentanalysishotelgeneric-2048x803-1.jpg")  # Replace with your banner image filename
+    banner_image = Image.open("./images/sentimentanalysishotelgeneric-2048x803-1.jpg")  # Replace with your banner image filename
     st.image(banner_image, use_column_width=True)
 
     st.title("Sentiment Analysis with Naïve Bayes")
@@ -161,13 +161,13 @@ def main():
         image_size = (100, 100) 
         # Display an image based on the sentiment
         if predicted_sentiment == "positive":
-            image = Image.open("/images/positive.jpg")  # Change to your positive image filename
+            image = Image.open("./images/positive.jpg")  # Change to your positive image filename
             #image(image, caption="Positive Sentiment")
         elif predicted_sentiment == "negative":
-            image = Image.open("/images/negative.jpg")  # Change to your negative image filename
+            image = Image.open("./images/negative.jpg")  # Change to your negative image filename
             #image(image, caption="Negative Sentiment")
         else:
-            image = Image.open("/images/neutral.jpg")   # Change to your neutral image filename
+            image = Image.open("./images/neutral.jpg")   # Change to your neutral image filename
             #image(image, caption="Neutral Sentiment")
         resized_image = image.resize(image_size, Image.ANTIALIAS)
         #st.image(resized_image, caption=f"{predicted_sentiment.capitalize()} Sentiment", use_column_width=False)
