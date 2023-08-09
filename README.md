@@ -4,7 +4,7 @@
 <br>
 <br>
 <p align="center">
-  <img src="/images/sentimentanalysishotelgeneric-2048x803-1.jpg" 
+  <img src="./images/sentimentanalysishotelgeneric-2048x803-1.jpg" 
        width="1200">
 </p>
 <br>
@@ -182,7 +182,7 @@ streamlit run app.py
 <br>
 <br>
 <p align="center">
-  <img src="/images/app_Sentiment_1.jpg" 
+  <img src="./images/app_Sentiment_1.jpg" 
        width="1200">
 </p>
 <br>
@@ -190,14 +190,14 @@ streamlit run app.py
 <br>
 <br>
 <p align="center">
-  <img src="/images/app_Sentiment_2.jpg" 
+  <img src="./images/app_Sentiment_2.jpg" 
        width="1200">
 </p>
 <br>
 <br>
 <br>
 <p align="center">
-  <img src="/images/app_Sentiment_3.jpg" 
+  <img src="./images/app_Sentiment_3.jpg" 
        width="1200">
 </p>
 <br>
