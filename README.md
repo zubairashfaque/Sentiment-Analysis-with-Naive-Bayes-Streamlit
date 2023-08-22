@@ -93,17 +93,17 @@ Given the text of a tweet, the task is to classify the sentiment as `positive`, 
 # Project Directory Structure <a name="Structure"></a>
 ```bash
 │                      
-├── app.py                         # Streamlit application script
-│   ├── data                       # Directory for storing the dataset
-│   │   └── train.csv              # Sentiment dataset
-│   └── images                     # Directory for sentiment image
-│       ├── app_Sentiment_1.jpg    # web app screenshot 1
-│       └── app_Sentiment_2.jpg    # web app screenshot 2
-│       └── app_Sentiment_3.jpg    # web app screenshort 3
-│       └── negative.jpg           # Positive sentiment image
-│       └── neutral.jpg            # Positive sentiment image
-│       └── positive.jpg           # Positive sentiment image
-│       └── sentimentanalysishotelgeneric-2048x803-1.jpg
+├── app.py                           # Streamlit application script
+├── data                             # Directory for storing the dataset
+│   └── train.csv                    # Sentiment dataset
+├── images                           # Directory for sentiment image
+│   ├── app_Sentiment_1.jpg          # web app screenshot 1
+│   └── app_Sentiment_2.jpg          # web app screenshot 2
+│   └── app_Sentiment_3.jpg          # web app screenshort 3
+│   └── negative.jpg                 # Positive sentiment image
+│   └── neutral.jpg                  # Positive sentiment image
+│   └── positive.jpg                 # Positive sentiment image
+│   └── sentimentanalysishotelgeneric-2048x803-1.jpg
 ├── docs                             # documentation for your project
 ├── .gitignore                       # ignore files that cannot commit to Git
 ├── notebooks                        # store notebooks
@@ -164,18 +164,27 @@ Sentiment analysis is the process of determining the sentiment (positive, negati
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/zubairashfaque/Sentiment-Analysis-with-Naive-Bayes-Streamlit.git
+git clone https://github.com/zubairashfaque/Text-Sentiment-Classification-App.git
 ```
-2. Install the required packages from the `requirements.txt` file:
+2. Run the following command to create a virtual environment named "Sentiment_NB" (you can replace "Sentiment_NB" with any name you prefer):
+```bash
+python -m venv Sentiment_NB
+```
+3. To activate the virtual environment, use the following command:
+```bash
+Sentiment_NB\Scripts\activate
+```
+4. Install the required packages from the `requirements.txt` file:
 ```bash
 pip install -r requirements.txt
 ```
-3. Run the Streamlit app:
+5. Run the Streamlit app:
 ```bash
 streamlit run app.py
 ```
 
-4. Enter text in the provided text area and click the "Classify Sentiment" button to see the sentiment prediction and scores.
+6. Enter text in the provided text area and click the "Classify Sentiment" button to see the sentiment prediction and scores.
+
 
 ## Screenshots <a name="Screenshots"></a>
 
