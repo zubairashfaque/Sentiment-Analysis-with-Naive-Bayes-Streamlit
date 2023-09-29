@@ -172,7 +172,8 @@ def main():
         else:
             image = Image.open("./images/neutral.jpg")   # Change to your neutral image filename
             #image(image, caption="Neutral Sentiment")
-        resized_image = image.resize(image_size, Image.ANTIALIAS)
+        #resized_image = image.resize(image_size, Image.ANTIALIAS)
+        resized_image = image.resize(image_size, Image.BILINEAR)
         #st.image(resized_image, caption=f"{predicted_sentiment.capitalize()} Sentiment", use_column_width=False)
         # Display resized image with markdown spacer for center alignment
         # Convert the image to base64
