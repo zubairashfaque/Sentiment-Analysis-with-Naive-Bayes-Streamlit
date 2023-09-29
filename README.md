@@ -164,7 +164,7 @@ Sentiment analysis is the process of determining the sentiment (positive, negati
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/zubairashfaque/Text-Sentiment-Classification-App.git
+git clone https://github.com/zubairashfaque/Sentiment-Analysis-with-Naive-Bayes-Streamlit.git
 ```
 2. Run the following command to create a virtual environment named "Sentiment_NB" (you can replace "Sentiment_NB" with any name you prefer):
 ```bash
