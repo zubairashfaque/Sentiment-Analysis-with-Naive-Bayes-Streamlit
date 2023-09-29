@@ -14,6 +14,9 @@ import base64
 from plotly import graph_objs as go
 import plotly.express as px
 from io import BytesIO 
+
+
+st.set_page_config(page_title='Sentiment Analysis', page_icon='😃', layout='wide', initial_sidebar_state='auto')
 # Load the dataset
 csv_file_path = './data/train.csv'
 df = pd.read_csv(csv_file_path)
