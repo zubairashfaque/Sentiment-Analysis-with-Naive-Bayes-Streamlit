@@ -209,3 +209,9 @@ $RECYCLE.BIN/
 # Linux
 .directory
 .Trash-*
+
+# Internal tracking files (keep local, don't push)
+PHASE3_COMPLETE.md
+PROGRESS.md
+TRANSFORMATION_PLAN.md
+TRANSFORMATION_STATUS.md
