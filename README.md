@@ -245,6 +245,19 @@ curl -X POST "http://localhost:8000/predict/batch" \
   }'
 ```
 
+#### Xquik CSV Exports
+Use the loader when a batch source is an exported Xquik CSV or another comment
+CSV with `Tweet Text`, `comment`, `review`, `feedback`, or `text` headers:
+
+```python
+from sentiment_analysis.data.xquik_loader import load_xquik_texts
+
+texts = load_xquik_texts("xquik-export.csv")
+```
+
+The loader filters blank rows and keeps the output ready for the existing batch
+prediction endpoint.
+
 #### List Available Models
 ```bash
 curl "http://localhost:8000/predict/models"
